@@ -1,4 +1,5 @@
 ﻿using _4458_midterm.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace _4458_midterm.Controllers
@@ -16,6 +17,7 @@ namespace _4458_midterm.Controllers
             _bankingAppRepository = bankingAppRepository;
         }
 
+        [Authorize]
         [HttpGet("queryTuition")]
         public async Task<List<string>> queryTuition(long student_num)
         {
