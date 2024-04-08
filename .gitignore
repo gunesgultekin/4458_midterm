@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.4458_midterm.http
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
