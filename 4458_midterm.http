@@ -1,0 +1,6 @@
+@_4458_midterm_HostAddress = http://localhost:5214
+
+GET {{_4458_midterm_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
