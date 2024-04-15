@@ -34,4 +34,12 @@
 ![web-unpaid-paginated](https://github.com/gunesgultekin/4458_midterm/assets/126399958/3f17ff77-add8-4496-b981-93611782087a)
 
 * /WebApp/unpaidTuitionsPaginated will return the list of students that has a unpaid tuition fee with specified term with 5 students per page
+
+## Data Model
+* Microsoft SQL Server and .NET Entity Framework ORM are configured in the project.
   
+## Additional
+* JWT Authorization applied.
+* Pagination applied for /WebApp/unpaidTuitionsPaginated (5 students per page)
+* Api versioning applied.
+* All the project components are currently running on Microsoft Azure cloud hosting.
