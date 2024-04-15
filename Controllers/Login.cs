@@ -5,7 +5,9 @@ namespace _4458_midterm.Controllers
 {
 
     [ApiController]
-    [Route("/api/login")]
+    [Route("/api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1.0")]
+
     public class Login : ControllerBase
     {
         private readonly ILoginRepository _loginRepository;
