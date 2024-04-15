@@ -2,17 +2,17 @@
 # University Tuition Payment System
 * Documentation
   ![login](https://github.com/gunesgultekin/4458_midterm/assets/126399958/141d1f1b-9339-4cbf-9a0a-c336e1d2354e)
-- /login will generate a JWT token that will be used to reach endpoints
+*/login will generate a JWT token that will be used to reach endpoints
   /BankingApp/query tuition,
   /WebApp/addTuition,
   /WebApp/unpaidTuitions
   
 ![jwt](https://github.com/gunesgultekin/4458_midterm/assets/126399958/025f3f9c-ce8c-42b9-86b6-58fbc657e636)
 
-Enter the generated token in the authorization section on swagger
+*Enter the generated token in the authorization section on swagger
 
 ![banking-query](https://github.com/gunesgultekin/4458_midterm/assets/126399958/25d75a2a-084b-4c3f-8026-68f19bf633e1)
-  /BankingApp/queryTuition will return the total amount of tuition and current bank balance of the student with specified student number
+  */BankingApp/queryTuition will return the total amount of tuition and current bank balance of the student with specified student number
 ![banking-pay](https://github.com/gunesgultekin/4458_midterm/assets/126399958/4ab29b89-6be0-4239-bdff-d5a3661ef0f4)
 /BankingApp/payTuition will 
 If there is sufficient balance in the student's bank account, it records the payment of the specified amount (decreases the remaining tuition fee).
