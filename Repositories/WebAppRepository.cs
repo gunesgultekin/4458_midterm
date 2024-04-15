@@ -43,5 +43,19 @@ namespace _4458_midterm.Repositories
             return unpaidList;
             
         }
+
+        public async Task<List<Students>> unpaidTuitionsPaginated(string term, int page)
+        {
+            int limit = 5;
+            var unpaidList = await _context.Students.Where(s => s.tuition > 0 && s.term == term)
+                .Where(s => s.id > (limit * (page - 1)))
+                .Take(limit)
+                .ToListAsync();
+            if (unpaidList == null || unpaidList.Count == 0)
+            {
+                return new List<Students>();
+            }
+            return unpaidList;
+        }
     }
 }

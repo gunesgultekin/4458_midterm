@@ -6,6 +6,9 @@ namespace _4458_midterm.Interfaces
     {
         public Task<string> addTuition(long student_num, string term, long amount);
         public Task<List<Students>> unpaidTuitions(string term);
+        public Task<List<Students>> unpaidTuitionsPaginated(string term, int page);
+
 
     }
+        
 }

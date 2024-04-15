@@ -2,6 +2,7 @@
 using _4458_midterm.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace _4458_midterm.Controllers
 {
@@ -26,6 +27,11 @@ namespace _4458_midterm.Controllers
         {
             return await _webAppRepository.unpaidTuitions(term);
 
+        }
+        [HttpGet("unpaidTuitionsPaginated")]
+        public async Task<List<Students>> unpaidTuitionsPaginated(string term, int page)
+        {
+            return await _webAppRepository.unpaidTuitionsPaginated(term, page);
         }
     }
 }
