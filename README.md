@@ -14,7 +14,7 @@
 ![banking-query](https://github.com/gunesgultekin/4458_midterm/assets/126399958/25d75a2a-084b-4c3f-8026-68f19bf633e1)
 
   * /BankingApp/queryTuition will return the total amount of tuition and current bank balance of the student with specified student number
-  * 
+    
 ![banking-pay](https://github.com/gunesgultekin/4458_midterm/assets/126399958/4ab29b89-6be0-4239-bdff-d5a3661ef0f4)
 
 * If there is sufficient balance in the student's bank account, it records the payment of the specified amount (decreases the remaining tuition fee).
@@ -37,7 +37,8 @@
 
 ## Data Model
 * Microsoft SQL Server and .NET Entity Framework ORM are configured in the project.
-  
+  ![er diagram](https://github.com/gunesgultekin/4458_midterm/assets/126399958/f21ef3ac-1e03-4140-aef2-673a9bc29ca8)
+
 ## Additional
 * JWT Authorization applied.
 * Pagination applied for /WebApp/unpaidTuitionsPaginated (5 students per page)
