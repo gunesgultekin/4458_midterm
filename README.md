@@ -40,6 +40,7 @@
   ![er diagram](https://github.com/gunesgultekin/4458_midterm/assets/126399958/f21ef3ac-1e03-4140-aef2-673a9bc29ca8)
 
 ## Additional
+
 * JWT Authorization applied.
 * Pagination applied for /WebApp/unpaidTuitionsPaginated (5 students per page)
 * Api versioning applied.
